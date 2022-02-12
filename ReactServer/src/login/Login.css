@@ -1,0 +1,69 @@
+.loginPage {
+    background-color: rgb(233, 233, 233);
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.loginBody {
+    height: max-content;
+    width: 400px;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 48px;
+
+    /* background-color: rgba(255, 255, 255, 0.753); */
+
+    color: rgb(3, 42, 42);
+}
+
+.loginTitle {
+    text-align: center;
+    color: rgb(3, 42, 42);
+    font-weight: 600;
+    font-size: 2.6rem;
+    margin-bottom: 32px;
+    /* background-color: deeppink; */
+}
+
+.loginNormalText {
+    font-weight: 300;
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0 10px 0;
+    /* background-color: lightgreen; */
+}
+
+.loginInput {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+}
+
+.loginSubmit {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    /* margin-top: 50px; */
+    margin: 50px 0 20px 0;
+    background-color: rgb(157, 219, 157);
+
+    /* Font color */
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.loginRegisterLink {
+    width: 100%;
+    text-align: center;
+    color: black;
+
+}

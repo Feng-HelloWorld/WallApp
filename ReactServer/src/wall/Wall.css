@@ -1,0 +1,74 @@
+.wall {
+    
+    background-color: rgb(233, 233, 233);
+  }
+  
+  
+.header {
+  
+    /* Fix header to the top of the window */
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    z-index: 10;
+  
+    background-color: white;
+  
+    /* Bottom line */
+    border-bottom: lightgray solid 1px;
+  
+}
+  
+.headerHolder {
+  
+    /* Horizontal centered */
+    width: 100%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    /* Make two nav buttons in one line */
+    display: flex;
+    /* float: right; */
+  
+}
+  
+  
+.navButton {
+    /* float: right; */
+    
+    height: 100%;
+    margin-right: 20px;
+    padding: 0 20px;
+
+    border-bottom: rgb(3, 42, 42) solid 3px;
+  
+    /* Make text vertical centered */
+    line-height: 100px;
+    text-align: center;
+    /* background-color: greenyellow; */
+  
+    /* Font settings */
+    font-size: larger;
+    color: rgb(3, 42, 42);
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration-line: none;
+  
+}
+  
+.wallBody {
+    /* height: calc(100% - 160px); */
+    height: 100vh;
+    /* background-color: green; */
+    padding-top: 120px;
+  
+    /* Make all content horizontal centered */
+    width: 100vw;
+    max-width: 648px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* display: flex; */
+}
