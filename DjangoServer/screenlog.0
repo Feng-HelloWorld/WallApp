@@ -111,3 +111,5 @@ Quit the server with CONTROL-C.
 [13/Feb/2022 17:09:23] [m"OPTIONS /api/token/ HTTP/1.1" 200 0[0m
 [13/Feb/2022 17:09:24] [m"POST /api/token/ HTTP/1.1" 200 438[0m
 [13/Feb/2022 17:09:24] [m"GET /api/posts/ HTTP/1.1" 200 351[0m
+[13/Feb/2022 17:12:25] [m"GET /api/posts/ HTTP/1.1" 200 351[0m
+[13/Feb/2022 17:16:53] [m"GET /api/posts/ HTTP/1.1" 200 351[0m

@@ -1,32 +1,18 @@
 .postHolder {
-    /* width: 100%; */
     height: fit-content;
-    /* min-height: 50px; */
     background-color: white;
-    /* display: block; */
-    
-    /* border: solid black; */
     border-radius: 8px;
     border: none;
-    /* margin: 30px 30px; */
     padding: 15px 30px;
     margin-top: 10px;
-
-    /* position: none; */
 }
 
 .postText {
     display: flex;
     white-space:pre-wrap;
-    /* position: none; */
-
 }
 
 .postTime {
-    /* position: relative;
-    top: 19px;
-    left: 16px; */
-    /* display: flex; */
     display: inline-block;
     width: 100%;
     text-align: right;

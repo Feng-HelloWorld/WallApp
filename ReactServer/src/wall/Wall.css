@@ -36,8 +36,6 @@
   
   
 .navButton {
-    /* float: right; */
-    /* display: inline-block; */
     
     height: 100%;
     margin-right: 20px;
@@ -48,7 +46,6 @@
     /* Make text vertical centered */
     line-height: 100px;
     text-align: center;
-    /* background-color: greenyellow; */
   
     /* Font settings */
     font-size: larger;
@@ -60,9 +57,7 @@
 }
   
 .wallBody {
-    /* height: calc(100% - 160px); */
     height: 100vh;
-    /* background-color: green; */
     padding-top: 120px;
   
     /* Make all content horizontal centered */
@@ -71,18 +66,13 @@
     margin-left: auto;
     margin-right: auto;
 
-    /* display: flex; */
-    /* text-align: center; */
 }
 
 .newPost {
     display: inline-block;
     width: 95%;
     margin: auto auto;
-    /* max-width: calc(100%-10px); */
-    /* min-width: calc(100%-10px); */
     resize: none;
-    /* height: max-content; */
     overflow: auto;
     height: fit-content;
     padding: 10px;
@@ -93,7 +83,6 @@
     height: 40px;
     border-radius: 20px;
     border: none;
-    /* margin-top: 50px; */
     margin: 10px 0 10px 0;
     background-color: rgb(157, 219, 157);
 
