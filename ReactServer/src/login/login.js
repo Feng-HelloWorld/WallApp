@@ -34,6 +34,7 @@ export const Login = () => {
         .then((response) => {
           const token = response.data['access']
           localStorage.setItem('token', token)
+
           navigate('/')
         })
         .catch((error) => {

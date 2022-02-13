@@ -9,6 +9,7 @@ export const Wall = () => {
   const token = localStorage.getItem('token')
   const isLogged = !!token
 
+
   // post message list
   const [data, setData] = useState([
     {
@@ -22,13 +23,14 @@ export const Wall = () => {
   const [newPost, setNewPost] = useState('')
 
   useEffect(() => {
+    
     getPosts()
   }, [])
 
   // get data from server
   const getPosts = () => {
     axios.get('posts/').then((response) => {
-      setData(response.data)
+      setData(response.data.reverse())
     })
   }
 
@@ -40,6 +42,9 @@ export const Wall = () => {
   // logout
   const loggout = () => {
     localStorage.removeItem('token')
+
+    setData([])
+    getPosts()
   }
 
   // post a new message
