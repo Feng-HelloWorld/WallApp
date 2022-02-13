@@ -13,19 +13,22 @@ import Login from './Login/Login'
 
 function App() {
 
-  
+    // axios.defaults.baseURL = 'http://35.239.212.171:8000/api/';
 
-  return (
-    // navigate('/')
+    const [token, setToken] = useState('')
 
-    <Routes>
-      <Route path='/' element={<Wall />}/>
-      <Route path='/register' element={<Register />}/>
-      <Route path='/login' element={<Login />}/>
-    </Routes>
+    axios.defaults.baseURL = 'http://localhost:8000/api/';
+    // axios.defaults.headers.common['Authorization'] = "Bearer "+token;
 
+    
 
-  );
+    return (
+        <Routes>
+            <Route path='/' element={<Wall />}/>
+            <Route path='/register' element={<Register />}/>
+            <Route path='/login' element={<Login />}/>
+        </Routes>
+    );
 }
 
 export default App;

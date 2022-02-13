@@ -34,7 +34,7 @@
     font-size: 1.2rem;
     display: inline-block;
     width: 100%;
-    margin: 20px 0 10px 0;
+    margin: 10px 0 10px 0;
     /* background-color: lightgreen; */
 }
 
@@ -44,6 +44,16 @@
     border-radius: 8px;
     border: none;
     padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.registerWarning {
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .registerSubmit {
@@ -62,6 +72,8 @@
 }
 
 .registerLoginLink {
+    display: inline-block;
+    margin-top: 10px;
     width: 100%;
     text-align: center;
     color: black;

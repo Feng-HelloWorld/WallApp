@@ -17,6 +17,7 @@
 
 .postText {
     display: flex;
+    white-space:pre-wrap;
     /* position: none; */
 
 }
