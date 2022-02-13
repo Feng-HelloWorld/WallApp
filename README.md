@@ -1,5 +1,7 @@
 # WallApp
 
+You could try the app here: http://35.239.212.171 . It's a simple server only for test use.
+
 ### Requirements
   - sqlite3 version >= 3.9.0
   - python3 version >= 3.6.8
